@@ -7,8 +7,6 @@ Dotenv.load
 TELEGRAM_CHAT_ID = ENV['TELEGRAM_CHAT_ID']
 TELEGRAM_TOKEN = ENV['TELEGRAM_TOKEN']
 
-puts TELEGRAM_CHAT_ID
-
 # Configuración de conexión a la base de datos
 DB_CONFIG = {
   dbname: ENV['DB_NAME'],
